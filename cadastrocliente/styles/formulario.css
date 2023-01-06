@@ -53,6 +53,13 @@
     color: var(--branco);
     cursor: pointer;
     float: right;
+    transition: 0.5s;
+}
+
+.formulario__botao:hover {
+    background-color: #eb7d00;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .formulario__erro {
