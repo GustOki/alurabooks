@@ -1,5 +1,5 @@
 .principal {
-    width: 50vw;
+    width: 80vw;
     margin: 5em auto 6em auto;
 }
 
@@ -86,4 +86,16 @@
 #erro {
     margin: 16px 0 0 20px;
     color: var(--vermelho);
+}
+
+@media screen and (max-width: 1024px) {
+    .principal {
+        width: 90vw;
+    }
+
+    .formulario__botao {
+        margin: 0.5em 1em;
+        float: left;
+    }
+
 }
